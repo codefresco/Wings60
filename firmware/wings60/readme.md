@@ -27,6 +27,9 @@ avrdude -p m32u4 -c avr109 -P [YOUR_COM_PORT] -b 57600 -D -U flash:w:wings60_avr
 ```
 replace [YOUR_COM_PORT] with the com port that the pro micro is connected and double tap SW1 on the pcb (reset button) before flashing. Repeat for the right side.
 
+## Pro micro RP2040
+Based on a raspberry pico rp2040. Firmware TBD
+
 ## Bootloader
 
 Enter the bootloader in 3 ways:
