@@ -1,4 +1,4 @@
-# Wings60V2
+# Wings60
 
 ![wings60](../../gallery/wings60pcb.png)
 
