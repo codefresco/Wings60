@@ -23,7 +23,7 @@ qmk compile -kb wings60/avr/right -km vial3layer
 To flash the resulting `wings60_avr_left_vial3layer.hex` and `wings60_avr_right_vial3layer.hex` file use avrdude:
 
 ```
-avrdude -p m32u4 -c avr109 -P [YOUR_COM_PORT] -b 57600 -D -U flash:w:wings60_avr_left_vial3layer.hex:i
+avrdude -p atmega32u4 -c avr109 -P [YOUR_COM_PORT] -U flash:w:wings60_avr_left_vial3layer.hex:i
 ```
 replace [YOUR_COM_PORT] with the com port that the pro micro is connected and double tap SW1 on the pcb (reset button) before flashing. Repeat for the right side.
 
