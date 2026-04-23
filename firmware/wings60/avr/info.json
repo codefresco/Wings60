@@ -1,0 +1,49 @@
+{
+  "manufacturer": "codefresco",
+  "keyboard_name": "wings60",
+  "maintainer": "codefresco",
+  "development_board": "promicro",
+  "diode_direction": "COL2ROW",
+  "features": {
+    "bootmagic": true,
+    "command": false,
+    "console": false,
+    "extrakey": true,
+    "mousekey": false,
+    "rgblight": true,
+    "nkro": true
+  },
+  "matrix_pins": {
+      "cols":["F5","F6","F7","B1","B3","B2","B6"],
+      "rows":["C6", "D7", "E6", "B4", "B5"]
+  },
+  "bootmagic": {
+    "enabled": true,
+    "matrix": [ 0, 0 ]
+  },
+  "rgblight": {
+    "led_count": 60,
+    "max_brightness": 120,
+    "split_count": [30, 30],
+    "saturation_steps": 8, 
+    "brightness_steps": 8, 
+    "sleep": true, 
+    "animations": { 
+      "static_light": true
+    }, 
+    "default": {
+      "animation": "static_light",
+      "hue": 112,
+      "sat": 232,
+      "val": 120
+    }
+  },
+  "ws2812": {
+    "pin": "D4"
+  },
+  "usb": {
+    "device_version": "2.0.0",
+    "pid": "0x0486",
+    "vid": "0xFEED"
+  }
+}
