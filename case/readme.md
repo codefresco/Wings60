@@ -1,5 +1,3 @@
-![Wings60 Case](../gallery/case2.jpg)
-
 ## Warning
 Before soldering switches, make sure the USB opening placement on the case matches your mounted microcontroller position on the PCB.
 
