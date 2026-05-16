@@ -11,5 +11,5 @@ This directory contains both source and precompiled firmware for the Wings60 key
 | --- | --- |
 | Promicro Atmega32u4 | [Guide](./release/promicro_atmega32u4/readme.md) |
 | Nice! Nano (or compatible) | TBD |
-| Promicro RP2040 | TBD |
+| Promicro RP2040 | [Guide](./release/promicro_rp2040/readme.md) |
 | STM32 Blackpill | TBD |

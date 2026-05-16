@@ -27,8 +27,16 @@ avrdude -p atmega32u4 -c avr109 -P [YOUR_COM_PORT] -U flash:w:wings60_avr_left_v
 ```
 replace [YOUR_COM_PORT] with the com port that the pro micro is connected and double tap SW1 on the pcb (reset button) before flashing. Repeat for the right side.
 
-## Pro micro RP2040
-Based on a raspberry pico rp2040. Firmware TBD
+## Pro micro RP2040Based on a raspberry pico rp2040 with pro micro footprint.
+
+Compile and flash firmware (or grab from release directory) for left and right sides, for rp2040.
+```
+make wings60/rp2040:vial:uf2-split-left
+make wings60/rp2040:vial:uf2-split-right
+```
+Each command also generates a `wings60_rp2040_vial.uf2` in `vial-qmk` root directory. If you want to keep that file, rename after each half and copy it to somewhere else so it does not get overwrittern by the next half.
+
+**Note:** some borads do not go into bootloader by double tapping reset, for first flash you might have to hold the boot switch and connect the usb. Subsequent flashes will work by double tapping the reset key on the PCB.
 
 ## Bootloader
 

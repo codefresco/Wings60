@@ -1,0 +1,115 @@
+{
+  "manufacturer": "codefresco",
+  "keyboard_name": "wings60",
+  "maintainer": "codefresco",
+  "processor": "RP2040",
+  "bootloader": "rp2040",
+  "diode_direction": "COL2ROW",
+  "features": {
+    "bootmagic": true,
+    "command": true,
+    "extrakey": true,
+    "mousekey": true,
+    "rgblight": true,
+    "nkro": true
+  },
+  "bootmagic": {
+    "enabled": true,
+    "matrix": [ 0, 0 ]
+  },
+  "matrix_pins": {
+    "cols":["GP28","GP27","GP26","GP22","GP20","GP23","GP21"],
+    "rows":["GP5", "GP6", "GP7", "GP8", "GP9"]
+  },
+  "split": {
+    "matrix_pins": {
+      "right": {
+          "cols":["GP21","GP23","GP20","GP22","GP26","GP27","GP28"],
+          "rows":["GP5", "GP6", "GP7", "GP8", "GP9"]
+      }
+    },
+    "enabled": true,
+    "bootmagic": {
+      "matrix": [5, 6]
+    },
+    "serial": {
+        "driver": "vendor"
+    },
+    "transport": {
+      "sync": {
+          "matrix_state": true
+      },
+      "watchdog": true
+    }
+  },
+  "rgblight": {
+    "led_count": 60,
+    "max_brightness": 120,
+    "split_count": [30, 30],
+    "saturation_steps": 8, 
+    "brightness_steps": 8, 
+    "sleep": true, 
+    "animations": { 
+      "static_light": true,
+      "alphas_mods": true,
+      "band_pinwheel_sat": true,
+      "band_pinwheel_val": true,
+      "band_sat": true,
+      "band_spiral_sat": true,
+      "band_spiral_val": true,
+      "band_val": true,
+      "breathing": true,
+      "cycle_all": true,
+      "cycle_left_right": true,
+      "cycle_out_in": true,
+      "cycle_out_in_dual": true,
+      "cycle_pinwheel": true,
+      "cycle_spiral": true,
+      "cycle_up_down": true,
+      "digital_rain": true,
+      "dual_beacon": true,
+      "gradient_left_right": true,
+      "gradient_up_down": true,
+      "hue_breathing": true,
+      "hue_pendulum": true,
+      "hue_wave": true,
+      "jellybean_raindrops": true,
+      "multisplash": true,
+      "pixel_flow": true,
+      "pixel_fractal": true,
+      "pixel_rain": true,
+      "rainbow_beacon": true,
+      "rainbow_moving_chevron": true,
+      "rainbow_pinwheels": true,
+      "raindrops": true,
+      "solid_multisplash": true,
+      "solid_reactive": true,
+      "solid_reactive_cross": true,
+      "solid_reactive_multicross": true,
+      "solid_reactive_multinexus": true,
+      "solid_reactive_multiwide": true,
+      "solid_reactive_nexus": true,
+      "solid_reactive_simple": true,
+      "solid_reactive_wide": true,
+      "solid_splash": true,
+      "splash": true,
+      "typing_heatmap": true
+    }, 
+    "default": {
+      "animation": "static_light",
+      "hue": 112,
+      "sat": 232,
+      "val": 120
+    },
+    "driver": "ws2812"
+  },
+  "ws2812": {
+    "driver": "vendor",
+    "pin": "GP4"
+  },
+  "usb": {
+    "device_version": "2.0.0",
+    "pid": "0x0486",
+    "vid": "0xFEED"
+  }
+}
