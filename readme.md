@@ -1,20 +1,20 @@
 # Wings60
 
-Wings60 is an open source split keyboard designed after trying many existing split layouts and refining what works best in daily use.
+Wings60 is an open source split keyboard designed after trying many existing split layouts.
 
 ## Why this layout
 
-This keyboard is an improvement on most common split layouts by:
+This keyboard is different in:
 
-- Improving key access for the thumb cluster by removing thumb-twister keys and adding one 1.5u key with good access where many layouts miss.
-- Using a natural thumb cluster orientation selected after testing many existing layouts.
-- Using the most popular column stagger.
-- Keeping the same PCB usable for wired or wireless builds, including a power slide switch, JST PH2.0 battery plug, and between-halves interconnects on the PCB.
-- Using USB-C for wired interconnect between halves, which is superior to 1/4 stereo connections because it can be hot-plugged without damaging microcontrollers.
-- Supporting pro-micro pinout controllers such as Nice!Nano, Pro Micro ATmega32u4, and Pro Micro RP2040.
-- Using low-power RGB LEDs (SK6803 mini-e), which draw less power than common WS2812B and SK6812 variants.
-- Including a slide switch to cut LED power for zero LED idle current in power-conscious assemblies.
-- Staying compact while keeping a top number row.
+- Improved key access for the thumb cluster, two 1.5u key with good access.
+- Uses a natural thumb cluster orientation selected after testing many existing layouts.
+- Uses the most popular column stagger.
+- Keeps the same PCB usable for wired or wireless builds, including a power slide switch, JST PH2.0 battery plug, and between-halves interconnects on the PCB.
+- Uses USB-C for wired interconnect between halves, which is superior to 1/4 stereo connections because it can be hot-plugged without damaging microcontrollers.
+- Supports pro-micro pinout controllers such as Nice!Nano, Pro Micro ATmega32u4, and Pro Micro RP2040.
+- Uses low-power RGB LEDs (SK6803 mini-e), which draw less power than common WS2812B and SK6812 variants.
+- Includes a slide switch to cut LED power for zero LED idle current in power-conscious assemblies.
+- Stays compact while keeping a top number row.
 
 ![Wings60 case view](./gallery/case2.jpg)
 
