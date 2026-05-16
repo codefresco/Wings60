@@ -11,10 +11,12 @@ Before soldering switches, make sure the USB opening placement on the case match
 - **Fixed-height USB opening** (`*-usb-fixed-5mm.3mf`): for total microcontroller socket height of **4.5-5mm**, with controllers that have the USB port mounted on top of their PCB.
 - **Movable USB opening** (`*-usb-movable.3mf`): includes the USB opening as a **negative part** (for Bambu Studio) that can be moved up/down in **Z** to fit your microcontroller and USB port position.
 
-## Variants
-Each case type is available in:
-- **Wireless**: includes an opening for the power slide switch.
-- **Wired**: power slide switch area is covered.
+## Which case is for you
+Different variants of the case are available:
+- `case-wired-usb-fixed-5mm.3mf` is for total socket height of 4.5-5mm and mcu boards with usb plug on top of pcb. This case is for wired builds because the power switch is covered.
+- `case-wired-usb-movable.3mf` is for wired builds but there is a negative object in the slicer for the USB port of the mcu. So the USB height is adjustable. Raise or lower the negative object to fit your specific MCU and mounting height.
+- `case-nice-nano-and-rp2040-usb-movable.3mf` is for wireless builds thatg use nice nano or compatible, or wired builds that use an MCU that have their USB plug inset into the board like Tenstar RP2040 pro micro. This case by default is for 5mm total socket height and has opening for the power switch. By adjustging negative objects you can move the USB height up and down or remove the opening for the power switch for wired builds. This is the most adjustable 3mf file.
+- `case-for-pcb-mount-switches.3mf` is a prototype for pcb mount switches. The top plate can come off and switches sit directly on the pcb. This case is untested so it is possible it doesn't work.
 
 ## Bottom, Hardware, and Fasteners
 - The case bottom included in each 3MF file is designed for **9-10mm standoffs**.
