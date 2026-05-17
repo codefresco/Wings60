@@ -32,15 +32,15 @@ This keyboard is different in:
 
 ### Wired build
 
-1. Solder and socket the microcontrollers to PCBs, **face down**. USB side must face the PCB. A good socketing guide: [Splitkb microcontroller guide](https://docs.splitkb.com/product-guides/aurora-series/build-guide/microcontrollers)
-2. Check USB height to make sure it fits the case designs in [case](./case). If it fits fixed-USB, use that variant; otherwise adjust USB height in the movable/adjustable variant in your slicer.
-3. Fit switches to the case, minding pin orientation.
-4. Fit the PCB to the case with flat side toward switches and components facing away from switches, so switch pins come out through the PCB. PCB should rest on the bottom of the switches. You may need gentle pressure for switch mounting pins to pop in.
+1. Flash firmware using instructions here [firmware/readme.md](./firmware/readme.md)
+2. Solder and socket the microcontrollers to PCBs, **face down**. USB side must face the PCB. A good socketing guide: [Splitkb microcontroller guide](https://docs.splitkb.com/product-guides/aurora-series/build-guide/microcontrollers)
+3. Check USB height to make sure it fits the case designs in [case](./case). If it fits fixed-USB, use that variant; otherwise adjust USB height in the movable/adjustable variant in your slicer.
+4. Fit switches to the case, minding pin orientation.
 
 ![Assembly orientation](./gallery/case1.jpg)
 
-5. Check no switch has popped out, and all switches are firmly seated on top of the case top side. Then solder all switch legs to the PCB.
-6. Flash firmware using instructions here [firmware/readme.md](./firmware/readme.md)
+5. Fit the PCB to the case with flat side toward switches and components facing away from switches, so switch pins come out through the PCB. PCB should rest on the bottom of the switches. You may need gentle pressure for switch mounting pins to pop in.
+6. Check no switch has popped out, and all switches are firmly seated on top of the case top side. Then solder all switch legs to the PCB.
 7. If using standoff bottoms, screw each standoff to the case with M2x8 screws. V-shaped heads sit flush in the top-side recesses.
 8. Screw case bottoms to standoffs using M2x4 screws, then apply non-slip feet.
 9. If using heat-insert bottoms, install heat inserts and fit the bottom to the top using M4x8 screws.
