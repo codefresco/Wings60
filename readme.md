@@ -10,7 +10,7 @@ This keyboard is different in:
 - Uses a natural thumb cluster orientation selected after testing many existing layouts.
 - Uses the most popular column stagger.
 - Keeps the same PCB usable for wired or wireless builds, including a power slide switch, JST PH2.0 battery plug, and between-halves interconnects on the PCB.
-- Uses USB-C for wired interconnect between halves, which is superior to 1/4 stereo connections because it can be hot-plugged without damaging microcontrollers.
+- Uses USB-C for wired interconnect between halves, it can be hot-plugged without damaging microcontrollers.
 - Supports pro-micro pinout controllers such as Nice!Nano, Pro Micro ATmega32u4, and Pro Micro RP2040.
 - Uses low-power RGB LEDs (SK6803 mini-e), which draw less power than common WS2812B and SK6812 variants.
 - Includes a slide switch to cut LED power for zero LED idle current in power-conscious assemblies.
@@ -19,6 +19,13 @@ This keyboard is different in:
 ![Wings60 case view](./gallery/case2.jpg)
 
 ## How to assemble
+
+> [!WARNING]
+> If you use a 3V microcontroller (for example Nice!Nano or RP2040), do not plug a powered USB cable into the between-halves interconnect USB-C port. This can damage the microcontroller.
+
+> [!WARNING]
+> Before soldering switches, make sure the microcontroller USB connector is clearly accessible in your chosen case. After switches are soldered, the case top is sandwiched between switches and PCB, and changing the top case becomes difficult. If you want to be able to remove the PCB more easily, check the PCB-mount-switches case variant in [case](./case).
+
 
 ### Bill of materials
 
