@@ -19,7 +19,7 @@ Before soldering switches, confirm that the case USB opening lines up with your 
 	- For MCU boards with the USB connector on top of the PCB.
 	- The power-switch opening is covered.
 
-	![MCU with USB on top](../gallery/usbtop.jpg)
+	![MCU with USB on top](../gallery/usb-on-top.jpg)
 - **`case-nice-nano-and-rp2040-usb-movable.3mf`**
   - For wired or wireless builds with total socket height of **4.5-5 mm**.
   - For boards with a USB connector recessed into the board (for example, nice!nano or Tenstar RP2040 Pro Micro).
@@ -27,7 +27,7 @@ Before soldering switches, confirm that the case USB opening lines up with your 
   - You can move the USB negative object in Z and optionally remove the power-switch opening for wired builds.
   - This is the most adjustable 3MF option.
 
-  ![MCU with USB inset](../gallery/usbin.jpg)
+  ![MCU with USB inset](../gallery/usb-inset.jpg)
 - **`case-wired-usb-movable.3mf`**
 	- For wired builds.
 	- Includes a movable negative object for the USB opening.

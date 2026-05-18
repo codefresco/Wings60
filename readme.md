@@ -29,6 +29,7 @@ This keyboard is different in:
 
 ### Bill of materials
 
+- See designs in [case](./case), pick one and print it. You can also design your own case around the [Case design outline](./case/design-outline), both dxf and svg are included.
 - Sockets for MCU: one of EZ-Solder Machine Sockets or a 40-pin machined IC breakable female header strip with Mill-Max pins is recommended for a total socket height of 4.5-5mm. This works best with the 3D printable case designs in [case](./case). Check USB connector height after assembly against the case USB opening. If your USB sits higher/lower, use the adjustable USB case variant described in [case/readme.md](./case/readme.md). A good guide to socketing microcontrollers is available here: [Machine pin socket guide](https://github.com/joric/nrfmicro/wiki/Sockets#machine-pin-socket)
 - Two pro micros: use any board with firmware already available in [firmware](./firmware), or any pro-micro-pinout compatible board and adjust firmware as needed. For wireless, use Nice!Nano or compatible SuperMini nRF52840.
 - Either 4x 9-10mm standoffs with 4x M2x8 and 4x M2x4 screws for each half, or 4x M2x4 heat inserts with the heat-insert-compatible case bottom. See [case/readme.md](./case/readme.md).
