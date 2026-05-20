@@ -21,7 +21,9 @@ This keyboard is different in:
 ## How to assemble
 
 > [!WARNING]
-> If you use a 3V microcontroller (for example Nice!Nano or RP2040), do not plug a powered USB cable into the between-halves interconnect USB-C port. This can damage the microcontroller.
+> If you use a 3V microcontroller (for example Nice!Nano or RP2040), do not plug a powered USB cable into the between-halves interconnect USB-C port. This can damage the microcontroller. To make it mistake proof:
+> - For nice! nano compatible and wireless builds print the case with interconect port covered
+> - For wired builds with 3V microcontrollers do not connect he VCC pin on microcontroller to the pcb (don't pin if using mill max or similar pins, clip the pin if using ez solder, etc.) and bridge the VCC pin of the PCB to RAW using a short wire on back of the PCB
 
 > [!WARNING]
 > Before soldering switches, make sure the microcontroller USB connector is clearly accessible in your chosen case. After switches are soldered, the case top is sandwiched between switches and PCB, and changing the top case becomes difficult. If you want to be able to remove the PCB more easily, check the PCB-mount-switches case variant in [case](./case).
