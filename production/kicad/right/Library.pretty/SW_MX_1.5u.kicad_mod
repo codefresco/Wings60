@@ -1,0 +1,288 @@
+(footprint "SW_MX_1.5u"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Footprint for Cherry MX style switches")
+	(property "Reference" "REF**"
+		(at -7 -6 0)
+		(layer "F.SilkS")
+		(uuid "344e7878-f1c9-44cd-9706-23951f427f7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(property "Value" "MX_SW_solder"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(uuid "cfd7356f-7c42-4c4a-be68-129a426e5681")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "024eace2-e221-4132-bc88-076f8b2a9e84")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78b9b61e-c22e-4951-b92a-408cab149934")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 14.2875 9.525)
+		(end 14.2875 -9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f6869635-93ed-450f-91fd-369c25f4fa14")
+	)
+	(fp_line
+		(start 14.2875 -9.525)
+		(end -14.2875 -9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "969f0690-9ef5-4554-9474-c4e7093b2d31")
+	)
+	(fp_line
+		(start 0 4.5)
+		(end 0 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e61ecbd6-fa7f-4290-84a9-bfba9dba41f2")
+	)
+	(fp_line
+		(start -0.5 5)
+		(end 0.5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e7217ab8-7f7e-4efd-a1c1-d0fba1baeab3")
+	)
+	(fp_line
+		(start -14.2875 9.525)
+		(end 14.2875 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a4a9bf36-a8bb-46ad-ab59-e69c587912dd")
+	)
+	(fp_line
+		(start -14.2875 -9.525)
+		(end -14.2875 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5a62692d-593d-46d3-8529-e4bde19fc66d")
+	)
+	(fp_line
+		(start 7 -6.5)
+		(end 7 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "f50fc1b9-9888-4a61-abca-cb9a5740313f")
+	)
+	(fp_line
+		(start 6.5 7)
+		(end -6.5 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "97d165bc-0f69-49e1-8778-1574e8fe52f2")
+	)
+	(fp_line
+		(start -6.5 -7)
+		(end 6.5 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "70cd67e9-c610-4c7d-8f68-a8f3507b00db")
+	)
+	(fp_line
+		(start -7 6.5)
+		(end -7 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "72fcec7c-4db7-4c41-9c5a-a4324f96c73e")
+	)
+	(fp_arc
+		(start 6.997236 6.498884)
+		(mid 6.850762 6.852396)
+		(end 6.497236 6.998883)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "4e27a2f5-8c04-457f-9590-246fff46fb78")
+	)
+	(fp_arc
+		(start 6.5 -7)
+		(mid 6.853553 -6.853553)
+		(end 7 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "3627c994-e600-47dd-adc7-34412f3e6ab8")
+	)
+	(fp_arc
+		(start -6.5 7)
+		(mid -6.853553 6.853553)
+		(end -7 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "6308f625-0221-47c5-8b21-73427e62e30c")
+	)
+	(fp_arc
+		(start -7 -6.5)
+		(mid -6.853553 -6.853553)
+		(end -6.5 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "86b6aa8d-8cea-45f3-a9c7-e1d04a0f6f8a")
+	)
+	(fp_line
+		(start 7 7)
+		(end 7 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee9e770a-838a-4318-8cb1-09625010113e")
+	)
+	(fp_line
+		(start 7 -7)
+		(end -7 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44b2cceb-d205-4f61-afb8-fa575276f3e4")
+	)
+	(fp_line
+		(start -7 7)
+		(end 7 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "894f1465-fe79-49c5-9e4e-bc6d93c6876c")
+	)
+	(fp_line
+		(start -7 -7)
+		(end -7 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f5c8af5-60b7-4ea8-a990-bf328884be4e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "96e2a1ea-8f2c-4c54-bd4d-3170af436d40")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0 180)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5000784d-98d5-4c09-a148-f7904d17afc7")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7c842a6e-9c57-4356-a4f5-a6537da2176f")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0 180)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f2939fef-5c09-42c1-ad83-8feb799acd06")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -2.540001 180)
+		(size 2.3 2.3)
+		(drill 1.524)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "1ce35278-48cc-44d8-88f2-4d5d0f9f2d12")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -5.08 180)
+		(size 2.3 2.3)
+		(drill 1.524)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "edfc4523-ef19-4039-95f8-a412f2d67329")
+	)
+	(embedded_fonts no)
+)

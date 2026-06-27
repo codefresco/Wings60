@@ -1,0 +1,205 @@
+(footprint "JST S2B-PH-SM4-TB-1x02-JST-PH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.93 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aad4cf5f-d07c-41f8-8aa1-fa8d2ea2b33c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x02"
+		(at 0 6.93 180)
+		(layer "F.Fab")
+		(uuid "88698f2d-02be-4572-9feb-2182bf91b384")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ce3c16e-e754-412f-9924-2e67b0640288")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7f60980-3db8-45c3-9093-bd511ec7ee83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C295747"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "618388d8-db8b-4dba-b9d9-c7193ca44bc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.95 -3.22)
+		(end -3.95 1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b11a2480-8d7f-4dca-8912-ffa0a5aec032")
+	)
+	(fp_line
+		(start -3 -3.22)
+		(end -3.95 -3.22)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7cb63659-4c0c-49f9-81ac-268923541639")
+	)
+	(fp_line
+		(start -3 -1.64)
+		(end -3 -3.22)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b9833b16-0887-45d4-9f12-98a0c47c546b")
+	)
+	(fp_line
+		(start -1.73 -1.64)
+		(end -3 -1.64)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ba8049d7-db36-4416-a307-debdeb18a26e")
+	)
+	(fp_line
+		(start 0.27 -1.65)
+		(end -0.27 -1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e5eacbd7-45f1-4b6b-bbd1-4ce1576ee923")
+	)
+	(fp_line
+		(start 2.4 4.38)
+		(end -2.4 4.38)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "99b4e736-5e84-44d3-a7c3-75a6aa70eb60")
+	)
+	(fp_line
+		(start 3 -3.22)
+		(end 3 -1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "083c8b9f-543b-469d-9b4f-4901200e1f10")
+	)
+	(fp_line
+		(start 3 -1.65)
+		(end 1.73 -1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bff2f9b6-6497-4120-9f34-00719ae29293")
+	)
+	(fp_line
+		(start 3.95 -3.22)
+		(end 3 -3.22)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0682c1ae-c242-47a2-8ed8-2d9886f0d378")
+	)
+	(fp_line
+		(start 3.95 -3.22)
+		(end 3.95 1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "91056cb6-d5dc-44c3-94a9-ae72209b8a03")
+	)
+	(pad "1" smd rect
+		(at -1 -2.93)
+		(size 1 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a2716575-5951-43d2-80bb-69a9a1368b8c")
+	)
+	(pad "2" smd rect
+		(at 1 -2.93)
+		(size 1 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c63b7a3a-1e4d-475d-acc3-db56f2be2317")
+	)
+	(pad "3" smd rect
+		(at 3.35 2.93)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "82bb2c5c-522b-460c-acae-fff5e039aaab")
+	)
+	(pad "4" smd rect
+		(at -3.35 2.93)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "712417f3-5518-4590-932b-575b50dddb59")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/hamid/Documents/KiCad/9.0/footprints/custom.3dshapes/JST S2B-PH-SM4-TB(LF)(SN).step"
+		(offset
+			(xyz 1 -2.8 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
